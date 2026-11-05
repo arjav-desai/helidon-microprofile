@@ -52,14 +52,11 @@ public class SecurityFilterContext {
                 + "resourceName='" + resourceName + '\''
                 + ", resourcePath='" + resourcePath + '\''
                 + ", method='" + method + '\''
-                + ", headers=" + headers
-                + ", targetUri=" + targetUri
                 + ", shouldFinish=" + shouldFinish
                 + ", methodSecurity=" + methodSecurity
                 + ", explicitAtz=" + explicitAtz
                 + ", traceSuccess=" + traceSuccess
                 + ", traceDescription='" + traceDescription + '\''
-                + ", queryParams=" + queryParams
                 + '}';
     }
 
